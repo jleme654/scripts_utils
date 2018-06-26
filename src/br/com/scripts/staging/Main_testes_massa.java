@@ -5,7 +5,7 @@ import java.util.Date;
 
 import br.com.scripts.utils.Pedidos_OMNI_Utils;
 
-public class Main {
+public class Main_testes_massa {
 	
 	public static void main(String[] args) {
 		/**
