@@ -21,10 +21,10 @@ loja (Nota Dev sem referencia a nota de saída). A Devolução Web e Omni seguem
 	public static void main(String[] args) {
 
 		// testes com QA dia 2018-07-13 (sexta-feira)
-		int idDevolucaoOMS = 9040;
-		int idB2C_Atendimento = 90040;
+		int idDevolucaoOMS = 9050;
+		int idB2C_Atendimento = 90050;
 		
-		String codigoTipoAtendimento = "1"; // (1, 6) Troca (EXCHANGE) || (2, 7)  Devolucao (REFUND)
+		String codigoTipoAtendimento = "2"; // (1, 6) Troca (EXCHANGE) || (2, 7)  Devolucao (REFUND)
 		String environment = "OMNI"; // HLG: OMNI | STG: Y
 		
 		Main_HR_B2C_ATENDIMENTO main_HR_B2C_ATENDIMENTO = new Main_HR_B2C_ATENDIMENTO();
