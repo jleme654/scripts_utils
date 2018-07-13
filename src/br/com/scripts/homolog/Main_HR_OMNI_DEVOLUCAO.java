@@ -28,7 +28,7 @@ public class Main_HR_OMNI_DEVOLUCAO{
 		List<String> listaPedidos;// = new ArrayList<String>();
 
 		if (codigoTipoAtendimento.equalsIgnoreCase("1")) {
-			listaPedidos = Pedidos_OMNI_Utils.listaPedidos;
+			listaPedidos = Pedidos_OMNI_Utils.listaPedidosExchange_Web;
 		} else if (codigoTipoAtendimento.equalsIgnoreCase("2")) {
 			listaPedidos = Pedidos_OMNI_Utils.listaPedidosRefund_Web;
 		} else {

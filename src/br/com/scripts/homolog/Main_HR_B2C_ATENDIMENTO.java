@@ -16,9 +16,9 @@ public class Main_HR_B2C_ATENDIMENTO {
 	private List<String> verifyListaPedidos(String codigoTipoAtendimento) {
        List<String> listaPedidos;//= new  ArrayList<String>();
 		
-		if (codigoTipoAtendimento.equalsIgnoreCase("1")) {
-			listaPedidos = Pedidos_OMNI_Utils.listaPedidos ;    
-		} else if(codigoTipoAtendimento.equalsIgnoreCase("2")) {
+		if (codigoTipoAtendimento.equalsIgnoreCase(Pedidos_OMNI_Utils.EXCHANGE_WEB_CODE)) {
+			listaPedidos = Pedidos_OMNI_Utils.listaPedidosExchange_Web ;    
+		} else if(codigoTipoAtendimento.equalsIgnoreCase(Pedidos_OMNI_Utils.REFUND_WEB_CODE)) {
 			listaPedidos = Pedidos_OMNI_Utils.listaPedidosRefund_Web;
 	    } else{
 			listaPedidos = new  ArrayList<String>();
