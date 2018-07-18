@@ -88,7 +88,7 @@ public class DataProcessor {
 		int dayTodayConvert = Integer.parseInt(dayToday);
 		System.out.println("dayCompare: " + dayCompareConvert + " dayToday: " + dayTodayConvert);
 
-		int result =  dayTodayConvert - dayCompareConvert;
+		int result =  dayTodayConvert + dayCompareConvert;
 		return result;
 	}
 
