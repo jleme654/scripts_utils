@@ -1,4 +1,4 @@
-package br.com.testes.cnpj;
+package br.com.cnpj;
 
 public class TrataCnpj {
 	
