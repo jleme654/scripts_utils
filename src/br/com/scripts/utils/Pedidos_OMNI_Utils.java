@@ -43,10 +43,17 @@ public class Pedidos_OMNI_Utils {
 
 	public static List<String> listaPedidosRefund_Web = Arrays.asList(
 			
-			"120710IM",
+			"230700020",//-F1 Entregue (return GIFTCARD) **
+			"230700021",//-F1 Entregue (return PAYMENT_VOID) **
+			"230700022",//-F1 Entregue (return OFFLINE_REFUND)
+			"230700029",//-F1 Entregue (return GIFTCARD) **
+			"230700030",//-F1 Entregue (return PAYMENT_VOID)
+			"230700031"//-F1 Entregue (return OFFLINE_REFUND)
+			
+			/*"120710IM",
 			"120704IM",// (confirma se tem volume)
 			"120713IM",
-			"120714IM"
+			"120714IM"*/
 			
 			/*"280600010"
 			"00040803",//    F1
